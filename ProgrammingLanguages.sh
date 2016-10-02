@@ -24,5 +24,8 @@ echo "============================="
 echo "== Downloading Scala 2.11.8=="
 echo "============================="
 sudo wget "http://www.scala-lang.org/files/archive/scala-2.11.8.deb"
+echo "============================"
+echo "== Installing Scala 2.11.8=="
+echo "============================"
 sudo dpkg -i scala-2.11.8.deb
 sudo rm -r scala-2.11.8.deb
